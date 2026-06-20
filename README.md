@@ -78,7 +78,18 @@ Durante o levantamento realizado junto à empresa foram identificados os seguint
 
 # Dashboard
 
-O dashboard foi desenvolvido para fornecer uma visão geral do desempenho do atendimento ao cliente da empresa.
+Foi desenvolvido um dashboard interativo no Power BI para monitoramento dos indicadores de atendimento da empresa, permitindo a análise de desempenho, identificação de gargalos e apoio à tomada de decisão.
+
+### Indicadores implementados
+
+- Total de Atendimentos
+- Tempo Médio de Resposta
+- Taxa de Conversão
+- Taxa de Desistência
+- Atendimentos por Canal
+- Atendimentos por Horário
+- Desempenho das Vendedoras
+- Relação entre Tempo de Resposta e Desistência
 
 ![Dashboard do Projeto](imagens/evidencia_DeashboardFinalizado.png)
 
@@ -86,23 +97,28 @@ O dashboard foi desenvolvido para fornecer uma visão geral do desempenho do ate
 
 # Principais Resultados
 
-Com base na análise dos dados foi possível identificar que:
+A análise dos dados permitiu identificar os seguintes pontos:
 
-- O atendimento online concentra a maior parte dos contatos da empresa;
-- Existe impacto direto entre o tempo de resposta e a desistência dos clientes;
-- Horários de pico aumentam o volume de atendimentos simultâneos;
-- A empresa não possui indicadores formais para monitoramento do atendimento;
-- O uso de métricas pode auxiliar na tomada de decisões e melhoria dos resultados.
+- Foram analisados 500 registros de atendimento.
+- O tempo médio de resposta foi de aproximadamente 10 minutos.
+- A taxa de conversão observada foi de 42,60%.
+- A taxa de desistência observada foi de 43,60%.
+- Os maiores índices de desistência ocorreram quando o tempo de resposta ultrapassou 10 minutos.
+- O atendimento está concentrado em apenas duas vendedoras.
+- A empresa não possui indicadores formais de desempenho para acompanhamento contínuo do atendimento.
 
 ---
 
 # Propostas de Melhoria
 
-- Implementação de indicadores permanentes de atendimento;
-- Monitoramento contínuo através do dashboard desenvolvido;
-- Melhor aproveitamento do CRM para acompanhamento de clientes;
+Com base na análise realizada, foram propostas as seguintes melhorias:
+
+- Implantação permanente do dashboard desenvolvido;
 - Definição de metas para tempo máximo de resposta;
-- Otimização da distribuição dos atendimentos em horários de maior demanda.
+- Utilização dos indicadores para acompanhamento periódico do desempenho;
+- Melhor aproveitamento do CRM para monitoramento dos clientes;
+- Priorização de atendimentos nos horários de maior demanda;
+- Padronização do acompanhamento dos clientes durante o processo de venda.
 
 ---
 
@@ -131,3 +147,16 @@ Os dados utilizados neste projeto são simulados e anonimizados, construídos co
 Projeto Integrador II
 Curso: Análise e Desenvolvimento de Sistemas
 Centro Universitário La Salle Manaus
+
+# Status do Projeto
+
+| Etapa | Status |
+|---------|---------|
+| Definição da empresa parceira | ✅ Concluído |
+| Levantamento de requisitos | ✅ Concluído |
+| Diagnóstico organizacional | ✅ Concluído |
+| Coleta e preparação dos dados | ✅ Concluído |
+| Análise dos dados | ✅ Concluído |
+| Desenvolvimento do Dashboard | ✅ Concluído |
+| Proposição de melhorias | ✅ Concluído |
+| Documentação do projeto | 🔄 Em andamento |

@@ -20,6 +20,8 @@ Projeto desenvolvido para a disciplina de Projeto Integrador II do curso de Aná
 
 **Responsável pelo acompanhamento do projeto:**
 - Raul Gomes — Gerente Geral
+- Email Empresa: shinerayamazonas2025@gmail.com
+- Email Corporativo: contato.raulgsneto@gmail.com
 
 ---
 
@@ -71,7 +73,6 @@ Durante o levantamento realizado junto à empresa foram identificados os seguint
 - Power BI
 - Microsoft Excel
 - GitHub
-- CRM da Empresa
 - Draw.io (Fluxograma BPMN)
 
 ---

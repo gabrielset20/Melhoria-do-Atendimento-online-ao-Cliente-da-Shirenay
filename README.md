@@ -75,7 +75,6 @@ Durante o levantamento realizado junto à empresa foram identificados os seguint
 - Draw.io (Fluxograma BPMN)
 
 ---
-
 # Dashboard
 
 Foi desenvolvido um dashboard interativo no Power BI para monitoramento dos indicadores de atendimento da empresa, permitindo a análise de desempenho, identificação de gargalos e apoio à tomada de decisão.
@@ -92,6 +91,22 @@ Foi desenvolvido um dashboard interativo no Power BI para monitoramento dos indi
 - Relação entre Tempo de Resposta e Desistência
 
 ![Dashboard do Projeto](imagens/evidencia_DeashboardFinalizado.png)
+
+
+O arquivo `dashboard.pbix` pode ser aberto utilizando o Power BI Desktop.
+
+### Fonte de dados
+
+O dashboard foi construído utilizando o arquivo `Base_Atendimentos_Shineray_500_Registros.xls` localizado na pasta `dados`.
+
+Caso o Power BI solicite a atualização do caminho da fonte de dados:
+
+1. Abra o arquivo `.pbix`;
+2. Acesse Transformar Dados > Configurações da Fonte de Dados;
+3. Atualize o caminho para o arquivo localizado na pasta `dados`;
+4. Clique em Atualizar.
+
+Após a atualização, todos os gráficos e indicadores serão carregados normalmente.
 
 ---
 

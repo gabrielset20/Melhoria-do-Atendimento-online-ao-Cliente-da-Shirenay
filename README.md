@@ -90,7 +90,7 @@ Foi desenvolvido um dashboard interativo no Power BI para monitoramento dos indi
 - Desempenho das Vendedoras
 - Relação entre Tempo de Resposta e Desistência
 
-![Dashboard do Projeto](imagens/evidencia_DeashboardFinalizado.png)
+![Dashboard do Projeto](imagens/dashboard.gif)
 
 
 O arquivo `dashboard.pbix` pode ser aberto utilizando o Power BI Desktop.

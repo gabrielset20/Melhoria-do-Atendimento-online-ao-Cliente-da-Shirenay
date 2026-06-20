@@ -1,144 +1,133 @@
 # Melhoria do Atendimento ao Cliente da Shineray
 
-Projeto desenvolvido para a disciplina de Projeto Integrador II do curso de Análise e Desenvolvimento de Sistemas, com foco na análise de dados e otimização do processo de atendimento ao cliente da empresa Shineray.
+Projeto desenvolvido para a disciplina de Projeto Integrador II do curso de Análise e Desenvolvimento de Sistemas, com foco na análise de dados e otimização do processo de atendimento ao cliente da empresa Shineray Manaus.
 
 ---
 
-# Integrantes do Grupo
+# Integrantes
 
-- LUIS GABRIEL BEZERRA DE SOUZA - TECNOLOGIA EM ANÁLISE E DESENVOLVIMENTO DE SISTEMAS
-- WENDELL HENRIQUE ANJOS DA COSTA - TECNOLOGIA EM ANÁLISE E DESENVOLVIMENTO DE SISTEMAS
-- WILLIANS JOSE OTERO MARTIN - TECNOLOGIA EM ANÁLISE E DESENVOLVIMENTO DE SISTEMAS
+- Luis Gabriel XXXXX
+- Nome Completo XXXXX
+- Nome Completo XXXXX
 
 ---
 
 # Empresa Parceira
 
-**Shineray Manaus**  
+**Shineray Manaus**
+
 📍 Av. Cosme Ferreira, 4006 - Coroado, Manaus - AM
 
-**Responsável pelo acompanhamento do projeto:**  
+**Responsável pelo acompanhamento do projeto:**
 - Raul Gomes — Gerente Geral
-- Email da empresa: shirenayamazonas2025@gmail.com
-- Email corporativo: contato.raulgsneto@outlook.com
 
 ---
 
-# Objetivo do Projeto
+# Objetivo
 
-O projeto tem como objetivo analisar o processo de atendimento ao cliente da empresa Shineray, identificando gargalos, dificuldades e oportunidades de melhoria por meio da análise de dados e ferramentas de Business Intelligence.
+Analisar o processo de atendimento ao cliente da empresa Shineray, identificando gargalos, dificuldades e oportunidades de melhoria através da análise de dados e da utilização de ferramentas de Business Intelligence.
 
 ---
 
 # Problema Identificado
 
-Durante o levantamento inicial realizado com a empresa, foram identificadas algumas dificuldades relacionadas ao processo de atendimento, principalmente nos canais online:
+Durante o levantamento realizado junto à empresa foram identificados os seguintes desafios:
 
-- Acúmulo de mensagens
-- Demora nas respostas em horários de pico
-- Dificuldade no acompanhamento dos clientes
-- Perda de clientes devido ao tempo de resposta
-- Ausência de métricas específicas de desempenho
+- Acúmulo de mensagens nos canais digitais;
+- Dificuldade de acompanhamento dos clientes;
+- Possibilidade de perda de clientes devido ao tempo de resposta;
+- Atendimento centralizado em apenas duas vendedoras;
+- Ausência de indicadores de desempenho para monitoramento do atendimento.
 
 ---
 
-# Tecnologias e Ferramentas Utilizadas
+# Processo Atual de Atendimento
+
+1. Captação de clientes através de anúncios e tráfego pago (Meta Ads);
+2. Direcionamento para o WhatsApp da empresa;
+3. Distribuição dos atendimentos pelo CRM;
+4. Atendimento realizado pelas vendedoras;
+5. Avaliação de financiamento ou forma de pagamento;
+6. Finalização da venda;
+7. Entrega da motocicleta ao cliente.
+
+---
+
+# Indicadores Analisados
+
+- Total de Atendimentos
+- Tempo Médio de Resposta
+- Taxa de Conversão
+- Taxa de Desistência
+- Atendimentos por Canal
+- Atendimentos por Horário
+- Desempenho das Vendedoras
+- Relação entre Tempo de Resposta e Desistência
+
+---
+
+# Ferramentas Utilizadas
 
 - Power BI
 - Microsoft Excel
-- Python
 - GitHub
-- CRM da empresa
+- CRM da Empresa
+- Draw.io (Fluxograma BPMN)
 
 ---
 
-# Fluxo Atual do Atendimento
+# Dashboard
 
-1. Captação de clientes através de anúncios e tráfego pago
-2. Redirecionamento do cliente para o WhatsApp
-3. Distribuição automática via CRM
-4. Atendimento realizado pelas vendedoras
-5. Análise de financiamento/pagamento
-6. Finalização da venda e entrega da motocicleta
+O dashboard foi desenvolvido para fornecer uma visão geral do desempenho do atendimento ao cliente da empresa.
+
+![Dashboard do Projeto](imagens/evidencia_DeashboardFinalizado.png)
 
 ---
 
-# Etapas do Projeto
+# Principais Resultados
 
-## ✅ Etapa 1 — Levantamento de Informações
-- Reunião com o gerente da empresa
-- Identificação da estrutura física e administrativa
-- Entendimento do fluxo de atendimento
+Com base na análise dos dados foi possível identificar que:
 
-## ✅ Etapa 2 — Mapeamento do Processo
-- Identificação das etapas do atendimento
-- Levantamento das principais dificuldades
-
-## ✅ Etapa 3 — Coleta e Organização dos Dados
-- Organização inicial dos dados de atendimento
-- Estruturação das informações para análise
-
-## ✅ Etapa 4 — Análise dos Dados
-- Identificação de gargalos
-- Levantamento das fragilidades no atendimento
-- Definição dos indicadores principais
-
-## ⏳ Etapa 5 — Desenvolvimento do Dashboard
-- Em desenvolvimento
-
-## ⏳ Etapa 6 — Proposta de Melhorias
-- Em desenvolvimento
+- O atendimento online concentra a maior parte dos contatos da empresa;
+- Existe impacto direto entre o tempo de resposta e a desistência dos clientes;
+- Horários de pico aumentam o volume de atendimentos simultâneos;
+- A empresa não possui indicadores formais para monitoramento do atendimento;
+- O uso de métricas pode auxiliar na tomada de decisões e melhoria dos resultados.
 
 ---
 
-# Indicadores que serão analisados
+# Propostas de Melhoria
 
-- Tempo médio de resposta
-- Quantidade de atendimentos
-- Horários de pico
-- Taxa de perda de clientes
-- Tempo médio de finalização do atendimento
-- Eficiência do atendimento online
-
----
-
-# Possíveis Melhorias Propostas
-
-- Melhor organização dos atendimentos via CRM
-- Criação de métricas de desempenho
-- Otimização do tempo de resposta
-- Melhor acompanhamento dos clientes
-- Estruturação de indicadores de atendimento
+- Implementação de indicadores permanentes de atendimento;
+- Monitoramento contínuo através do dashboard desenvolvido;
+- Melhor aproveitamento do CRM para acompanhamento de clientes;
+- Definição de metas para tempo máximo de resposta;
+- Otimização da distribuição dos atendimentos em horários de maior demanda.
 
 ---
 
-# Estrutura do Repositório
+# 📂 Estrutura do Repositório
 
-```bash
+```text
 📁 documentos
-📁 analise_dados
+📁 dados
 📁 dashboard
-📁 imagens
 📁 evidencias
+📁 imagens
+📁 python
 📄 README.md
 ```
 
 ---
 
-# Evidências do Projeto
-
-As evidências do desenvolvimento do projeto, reuniões, análises e implementação serão adicionadas ao longo da execução.
-
----
-
 # Ética e Privacidade
 
-O projeto respeita os princípios da LGPD, preservando dados sensíveis dos clientes e utilizando informações apenas para fins acadêmicos e analíticos.
+Os dados utilizados neste projeto são simulados e anonimizados, construídos com base nas informações levantadas junto à empresa parceira. Nenhuma informação sensível de clientes foi utilizada, respeitando os princípios da LGPD.
 
 ---
 
 # Disciplina
 
-Projeto Integrador II — ADS  
-Centro Universitário La Salle Manaus  
-Semestre 2026/1
+Projeto Integrador II
+Curso: Análise e Desenvolvimento de Sistemas
+Centro Universitário La Salle Manaus

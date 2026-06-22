@@ -22,21 +22,31 @@ def classificar_tempo(tempo):
 df["Classificacao_Atendimento"] = df["Tempo_Resposta_Min"].apply(classificar_tempo)
 
 print("===== ANÁLISE DE ATENDIMENTOS SHINERAY =====")
-print("Total de atendimentos:", len(df))
-print("Tempo médio de resposta:", round(df["Tempo_Resposta_Min"].mean(), 2), "minutos")
-print("Menor tempo de resposta:", df["Tempo_Resposta_Min"].min(), "minutos")
-print("Maior tempo de resposta:", df["Tempo_Resposta_Min"].max(), "minutos")
+print(f"Total de atendimentos: {len(df)}")
+print(f"Tempo médio de resposta: {round(df['Tempo_Resposta_Min'].mean(), 2)} minutos")
+print(f"Menor tempo de resposta: {df['Tempo_Resposta_Min'].min()} minutos")
+print(f"Maior tempo de resposta: {df['Tempo_Resposta_Min'].max()} minutos")
 
 print("\nClassificação dos atendimentos:")
-print(df["Classificacao_Atendimento"].value_counts())
+classificacao = df["Classificacao_Atendimento"].value_counts()
+
+for tipo, quantidade in classificacao.items():
+    print(f"- {tipo}: {quantidade} atendimentos")
 
 print("\nDesistência por classificação:")
-print(df.groupby("Classificacao_Atendimento")["Cliente_Desistiu"].value_counts())
+desistencia = df.groupby("Classificacao_Atendimento")["Cliente_Desistiu"].value_counts()
+
+for dados, quantidade in desistencia.items():
+    classificacao_atendimento, status_desistencia = dados
+    print(f"- {classificacao_atendimento} / Cliente desistiu: {status_desistencia} = {quantidade}")
 
 print("\nDesempenho por vendedora:")
-print(df.groupby("Vendedora")["Tempo_Resposta_Min"].mean().round(2))
+desempenho = df.groupby("Vendedora")["Tempo_Resposta_Min"].mean().round(2)
+
+for vendedora, media in desempenho.items():
+    print(f"- {vendedora}: {media} minutos em média")
 
 saida = "Analise_Atendimentos.xlsx"
 df.to_excel(saida, index=False)
 
-print("\nArquivo gerado com sucesso:", saida)
+print(f"\nArquivo gerado com sucesso: {saida}")

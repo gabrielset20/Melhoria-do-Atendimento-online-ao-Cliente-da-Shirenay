@@ -15,9 +15,3 @@ Avaliar o desempenho dos atendimentos com base no tempo de resposta.
 - Pandas
 - OpenPyXL
 
-## Como executar
-
-Instalar dependências:
-
-```bash
-pip install -r requirements.txt

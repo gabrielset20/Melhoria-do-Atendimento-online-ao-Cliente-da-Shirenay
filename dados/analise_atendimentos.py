@@ -5,7 +5,7 @@ df = pd.read_excel("Base_Atendimentos_Shineray_500_Registros.xlsx")
 def classificar_tempo(tempo):
     if tempo <= 5:
         return "Bom"
-    elif tempo <= 10:
+    elif tempo <= 15:
         return "Regular"
     else:
         return "Ruim"

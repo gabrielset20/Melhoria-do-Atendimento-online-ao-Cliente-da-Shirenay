@@ -1,6 +1,13 @@
 import pandas as pd
+from pathlib import Path
 
-arquivo = "dados/Base_Atendimentos_Shineray_500_Registros.xlsx"
+arquivo = Path("../dados/Base_Atendimentos_Shineray_500_Registros.xlsx")
+
+if not arquivo.exists():
+    print("Erro: arquivo Excel não encontrado.")
+    print("Confira se o arquivo está dentro da pasta 'dados' com este nome:")
+    print("Base_Atendimentos_Shineray_500_Registros.xlsx")
+    exit()
 
 df = pd.read_excel(arquivo)
 
@@ -14,18 +21,22 @@ def classificar_tempo(tempo):
 
 df["Classificacao_Atendimento"] = df["Tempo_Resposta_Min"].apply(classificar_tempo)
 
-print("===== ANÁLISE DE ATENDIMENTOS =====")
+print("===== ANÁLISE DE ATENDIMENTOS SHINERAY =====")
 print("Total de atendimentos:", len(df))
-print("Tempo médio:", round(df["Tempo_Resposta_Min"].mean(), 2))
-print("Maior tempo:", df["Tempo_Resposta_Min"].max())
-print("Menor tempo:", df["Tempo_Resposta_Min"].min())
+print("Tempo médio de resposta:", round(df["Tempo_Resposta_Min"].mean(), 2), "minutos")
+print("Menor tempo de resposta:", df["Tempo_Resposta_Min"].min(), "minutos")
+print("Maior tempo de resposta:", df["Tempo_Resposta_Min"].max(), "minutos")
 
-print("\nClassificações:")
+print("\nClassificação dos atendimentos:")
 print(df["Classificacao_Atendimento"].value_counts())
 
-print("\nDesistências:")
+print("\nDesistência por classificação:")
 print(df.groupby("Classificacao_Atendimento")["Cliente_Desistiu"].value_counts())
 
-df.to_excel("Analise_Atendimentos.xlsx", index=False)
+print("\nDesempenho por vendedora:")
+print(df.groupby("Vendedora")["Tempo_Resposta_Min"].mean().round(2))
 
-print("\nArquivo gerado com sucesso!")
+saida = "Analise_Atendimentos.xlsx"
+df.to_excel(saida, index=False)
+
+print("\nArquivo gerado com sucesso:", saida)

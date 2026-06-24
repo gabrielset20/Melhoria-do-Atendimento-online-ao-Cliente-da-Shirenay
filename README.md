@@ -111,6 +111,14 @@ Após a atualização, todos os gráficos e indicadores serão carregados normal
 
 ---
 
+# 🔄 Modelagem do Processo (BPMN)
+
+O processo de atendimento da Shineray foi modelado utilizando BPMN para representar o fluxo atual de captação, atendimento e venda ao cliente.
+
+![BPMN](bpmn/DiagramaAtendimentoShineray.png)
+
+---
+
 # Principais Resultados
 
 A análise dos dados permitiu identificar os seguintes pontos:
@@ -175,4 +183,4 @@ Centro Universitário La Salle Manaus
 | Análise dos dados | ✅ Concluído |
 | Desenvolvimento do Dashboard | ✅ Concluído |
 | Proposição de melhorias | ✅ Concluído |
-| Documentação do projeto | 🔄 Em andamento |
+| Documentação do projeto | ✅ Concluído |

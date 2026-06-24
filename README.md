@@ -149,6 +149,7 @@ Com base na análise realizada, foram propostas as seguintes melhorias:
 # 📂 Estrutura do Repositório
 
 ```text
+📁 bpmn
 📁 documentos
 📁 dados
 📁 dashboard
